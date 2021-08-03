@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    float: left;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: rgb(20, 20, 47);
+    
+    float: left; 
+    overflow: hidden;
+    padding: 15px;
+    
+}
+
+.footer_rule, .footer_links{
+    margin: 15px;
+    width: 95%;
+    
+}
+
+.footer_content{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    line-height: 200%;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.footer_content2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70%;
+    float: right;
+    color: rgba(255, 255, 255, 0.856);
+    margin-right: 20vh;
+}
+
+.contact{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.856);
+}
+
+.contact:hover{
+    color: rgba(255, 255, 255, 0.438);
+}
