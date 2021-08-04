@@ -8,7 +8,7 @@
 /* header */
 .header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #FDEFEF;
+    background-color: #FFDAB9;
     padding: 15px;
     overflow: hidden;
     
@@ -17,7 +17,7 @@
 }
 
 h1{
-    color: #FF4C29;
+    color: brown;
 }
 
 h4{
@@ -47,8 +47,8 @@ h4{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover{
-    color: #4f7694;
+.navbar a:hover{
+    background-color: brown;
 }
 
 /* content */
@@ -56,11 +56,12 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #def2f1;
     padding: 15px;
+    margin-bottom: -15px;
 }
 
 #TP #ques{
     font-size: 200%;
-    color: #FF4C29;
+    color: #e93d1b;
     font-family: Arial, Helvetica, sans-serif;
 }
 #full{
@@ -84,6 +85,7 @@ a:hover{
     border-radius: 50%;
     float:right;
     margin-left: 18px;
+    padding-right: 15px;
 }
 
 .PEC
@@ -92,6 +94,11 @@ a:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+    border: 2px solid ;
+    border-radius: 10px; 
+    background-color: #F5F5DC;
+    margin: 10px;
+    /* margin-top: 18px; */
 }
 
 .UIET
@@ -100,6 +107,10 @@ a:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+    background-color: #FFE5E2;
+    border: 2px solid ;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .CCET
@@ -108,6 +119,10 @@ a:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+    border: 2px solid ;
+    border-radius: 10px; 
+    background-color: #F5F5DC;
+    margin: 10px;
 }
 
 .chitkara
@@ -116,6 +131,10 @@ a:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+    border: 2px solid ;
+    border-radius: 10px; 
+    background-color: #FFE5E2;
+    margin: 10px;
 }
 
 .CU
@@ -124,23 +143,38 @@ a:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+    border: 2px solid ;
+    border-radius: 10px; 
+    background-color: #F5F5DC;
+    margin: 10px;
 }
 
-.rule{
+.PEC a, .UIET a, .CU a, .chitkara a, .CCET a{
+    font-size: large;
+    font-weight: bold;
+}
+
+.PEC a:hover, .UIET a:hover, .CU a:hover, .chitkara a:hover, .CCET a:hover{
+    color: red; 
+}
+
+/* .rule{
     width: 95%;
     margin-left: 2%;
-    /* margin-right: 2%; */
+    margin-right: 2%;
     height: 2px;
     border-radius: 2px;
     background-color: gray;
     border: none;
-}
+    margin-top: 18px;
+    margin-bottom: 18px;
+} */
 
 /* footer */
 
 .footer{
-    background-color: rgb(20, 20, 47);
-    
+    background-color: rgb(22, 22, 22);
+    margin-top: -15px;
     float: left; 
     overflow: hidden;
     padding: 15px;
