@@ -98,7 +98,6 @@ h4{
     border-radius: 10px; 
     background-color: #F5F5DC;
     margin: 10px;
-    /* margin-top: 18px; */
 }
 
 .UIET
@@ -147,6 +146,16 @@ h4{
     border-radius: 10px; 
     background-color: #F5F5DC;
     margin: 10px;
+}
+
+.PEC h2, .CCET h2, .CU h2
+{
+    color: #B05B3B
+}
+
+.UIET h2, .chitkara h2
+{
+    color: #E2703A;
 }
 
 .PEC a, .UIET a, .CU a, .chitkara a, .CCET a{
