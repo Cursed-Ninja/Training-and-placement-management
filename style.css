@@ -7,7 +7,7 @@
 
 /* header */
 .header{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #FDEFEF;
     padding: 15px;
     overflow: hidden;
@@ -60,9 +60,12 @@ a:hover{
 
 #TP #ques{
     font-size: 200%;
-    color: #3aafa9;
+    color: #FF4C29;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+#full{
+    background-color: #def2f1;
+}
 /* Description */
 
 .logos1
@@ -89,6 +92,7 @@ a:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+    float: left;
 
 }
 
@@ -122,6 +126,16 @@ a:hover{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+}
+
+.rule{
+    width: 95%;
+    margin-left: 2%;
+    /* margin-right: 2%; */
+    height: 2px;
+    border-radius: 2px;
+    background-color: gray;
+    border: none;
 }
 
 /* footer */
