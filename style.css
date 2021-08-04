@@ -63,6 +63,67 @@ a:hover{
     color: #3aafa9;
 }
 
+/* Description */
+
+.logos1
+{
+    width: 110px;
+    height: auto;
+    border-radius: 10%;
+    float:left;
+    margin-right: 18px;
+}
+
+.logos2
+{
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    float:right;
+    margin-left: 18px;
+}
+
+.PEC
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+
+}
+
+.UIET
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.CCET
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.chitkara
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.CU
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
 /* footer */
 
 .footer{
