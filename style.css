@@ -11,9 +11,6 @@
     background-color: #FFDAB9;
     padding: 15px;
     overflow: hidden;
-    
-    
-
 }
 
 h1{
@@ -82,7 +79,7 @@ h4{
 {
     width: 110px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10%;
     float:right;
     margin-left: 18px;
     padding-right: 15px;
