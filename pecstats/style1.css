@@ -22,15 +22,20 @@
     background-color: brown;
 }
 .header{
-    color: white;
-    background-color: #0b5681;
-    font-size: 600%;
+    color: rgb(20, 99, 145);
+    
+    font-size: 300%;
     font-family: sans-serif;
     text-shadow: #333;
     text-align: center;
 }
-textarea{
-    background-color: aqua;
-    text-align: center;
-    font-size: x-large;
+.section1{
+    font-family: cursive;
+    font-size: 100%;
+    background-color: rgb(139, 241, 228);
+}
+.whole{
+    padding: 4px;
+    margin: 4px 4px 4px 4px;
+    background-color: rgb(42, 42, 121);
 }
