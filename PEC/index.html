@@ -7,43 +7,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>homepage</title>
+    <style>
+      .img{
+          height: 250px;
+          background-size: 100% 300px;
+          background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f2/Cover_PEC.png');
+          background-repeat: no-repeat;
+          margin-bottom: 20px;
+          opacity: 0.70;          border: 4px solid black;
+      }
+    h1{
+      color: #002366;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 60px;
+    }
+  h4{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: xx-large;
+  }
+      .centered {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .bar{
+    background-color: #333;
+    overflow: hidden;
+}
+.bar{
+  float: none;
+  text-decoration: underline;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bar a{
+    padding: 65px;
+    color: beige;
+    font-weight: bolder;
+}
+a:hover{
+    color: #e6be0f;
+}
+.section1{
+    background-color: #def2f1;
+}
+.info{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  padding: 20px;
+}
+      </style>
   </head>
   <body>
     <!--this is header-->
-    <header>
-      <div class="header">
-        <img
-          src="/Assets/WhatsApp Image 2021-08-03 at 2.00.32 PM.jpeg"
-          alt=""
-          class="logo"
-        />
-        <h1><b> TRAINING AND PLACEMENT CELL</b></h1>
-        <br />
-        <h4>UIET, PANJAB UNIVERSITY, CHANDIGARH.</h4>
-      </div>
-    </header>
+    
+    <div class="img"></div>
 
+      <div class="centered">
+       
+        <h1><b><u>PUNJAB ENGINEERING COLLEGE</u></b></h1>
+  
+      <h4>CHANDIGARH</h4></div>
+  
+<marquee>This is not the official webpage of PEC TNP.</marquee>
     <!--navigation-->
-    <div class="navbar">
-      <a href="#">HOME </a>
+    <nav class="bar">
+      <a href="#">HOME</a>
       <a href="#">PEC</a>
       <a href="#">UIET</a>
       <a href="#">CCET</a>
       <a href="#">CHITKARA</a>
       <a href="#">CU</a>
       <a href="#">ABOUT US</a>
-    </div>
+  </nav>
     <div class="section1">
       <section>
-<p>
-&nbsp;welcome to Panjab Engineering College(PEC)'s training and placement cell. This is not the official site of the TNP cell but we will try our
+<p class="info">
+  Welcome to <b><u>Punjab Engineering College (PEC)'s</u></b> training and placement cell. This is not the official site of the TNP cell but we will try our
 best to give you the appropriate and necessary statistics of the placement and the companies involved in the same.
 Here are some of the companies that wisited last year for placement.
              
           </p>
       </section>
-  </div>
-  <div class="panel-heading">students placed in the last three years</div>
+  
+  <div class="panel-heading">STUDENTS PLACED IN THE LAST THREE YEARS</div>
   <table class="table1" border="1" style=none;>
      <tbody>
      <tr height="42">
@@ -182,7 +237,7 @@ Here are some of the companies that wisited last year for placement.
      </tr>
      </tbody>
      </table>
-     <div class="heading2">CTC of the last four years </div>
+     <div class="heading2">CTC OF THE LAST FOUR YEARS </div>
      <table class="table2" border="1" cellpadding="0" cellspacing="0" style="width:413px;" width="413">
          <tbody>
          <tr>
@@ -258,7 +313,7 @@ Here are some of the companies that wisited last year for placement.
          </tbody>
          </table>
          <div class="panel panel-default">
-             <div class="panel-heading">No. of PPOs Received in Last 04 Years</div>
+             <div class="panel-heading">NO. OF PPOs RECEIVED IN LAST FOUR YEARS</div>
              <table class="table3" border="1" cellpadding="0" cellspacing="0" style="width:307px;" width="307">
              <tbody>
              <tr>
@@ -323,6 +378,8 @@ FUTURES FIRST   |MUSIGMA   |YAHOO   |GAMMON INDIA   |MYSIS   |YASHI CONSULTANCY 
 GE ELECTRICAL   |NATIONAL INSTR.   |ZOMATO   |GEIPER   |NAUKRI.COM   |ZS ASSOCIATES
                  </pre>
              </div>
+             </div>
+             
     
 
     <!-- Footer -->
