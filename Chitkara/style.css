@@ -48,6 +48,57 @@ h4{
     background-color: brown;
 }
 
+/* body */
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #FFDAB9;
+    /* margin-top: -4px; */
+}
+
+.chitkara{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.placement{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+table,th,td{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    /* text-align: center; */
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* reviews */
+
+.reviews{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+}
+.reviews p{
+    margin: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.reviews img{
+    width: 100%;
+}
 
 
 /* footer */
@@ -70,8 +121,9 @@ h4{
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     line-height: 200%;
     color: rgba(255, 255, 255, 0.856);
-    float: left;
+    /* float: left; */
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer_content2{
