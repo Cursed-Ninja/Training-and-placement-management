@@ -25,7 +25,7 @@ h4{
     float: right;
     position: relative;
     top: 0px;
-    width:20vh;
+    width:20vh;x
 }
 
 /* navbar */
@@ -47,19 +47,50 @@ h4{
 .navbar a:hover{
     background-color: brown;
 }
-
-
-
-/* footer */
-
-.footer{
-    background-color: rgb(22, 22, 22);
-    margin-top: -15px;
-    overflow: hidden;
-    padding: 15px;
-    
+body {
+	padding-top: 0%;
+	background: linear-gradient(45deg,#FFDAB9, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
 }
 
+.container {
+	padding-top: 80%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+th:hover {
+    background-color: brown;
+    color: #000000;
+  }
+
+td:hover {
+    background-color: #0044ff85;
+    color: #000000;
+  }
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	background-color: #FFDAB9;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+th,td {
+	padding: 15px;
+	background-color: rgba(0,0,0,0.1);
+	color: black;
+}
+th {
+	text-align: left;
+}
+td {
+    position: relative;
+   
+}
+/*footer*/
+.footer{padding-top: 40%;}
 .footer_rule, .footer_links{
     margin: 15px;
     width: 95%;
