@@ -1,19 +1,88 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>homepage</title>
+    <style>
+      @keyframes change_color{
+        from{background-color:rgb(229, 255, 0);}
+        to{background-color:cornsilk;}
+      }
+      @keyframes text_slide{
+        from {
+       margin-left: 100%;
+       width: 100%;
+       }
+       to {
+         margin-left: 0%;
+        width: 100%;
+        }
+      }
+      @keyframes change_color_right{
+        from{background-color:rgb(30, 255, 0);}
+        to{background-color:rgb(253, 255, 220);}
+      }
+      @keyframes change_color_left{
+        from{background-color:rgb(0, 195, 255);}
+        to{background-color:rgb(253, 255, 220);}
+      }
+      
+      .div_info{
+        
+        float:left;
+        text-align: left;
+        border-radius: 30px;
+        height:220px;
+        width:52%;
+        background: cornsilk;
+        border: 5px outset greenyellow;
+        animation-name: change_color;
+        animation-direction: alternate;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+
+      }
+      .div_left{
+        float:left;
+        background: yellow;
+        border-radius: 20px;
+        border: 5px outset red;
+        height: 200px;
+        width: 15.24%;
+        animation-name: change_color_left;
+        animation-duration: 6s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+      .div_center{
+        float:left;
+        background: yellow;
+        border-radius: 20px
+      }
+      .div_right{
+        
+        float:right;
+        background: yellow;
+        border-radius: 20px;
+        border: 5px outset rgb(255, 187, 0);
+        height: 200px;
+        width: 17.8%; 
+        animation-name: change_color_right; 
+        animation-direction: alternate;
+        animation-duration: 6s; 
+        animation-iteration-count: infinite; 
+    </style>
   </head>
   <body>
     <!--this is header-->
     <header>
       <div class="header">
         <img
-          src="/Assets/WhatsApp Image 2021-08-03 at 2.00.32 PM.jpeg"
+          src="../Assets/WhatsApp Image 2021-08-03 at 2.00.32 PM.jpeg"
           alt=""
           class="logo"
         />
@@ -34,18 +103,118 @@
       <a href="#">ABOUT US</a>
     </div>
     
-    
-
     <!-- Footer -->
+    
+    <marquee><b><font size ="5">Welcome to the training and placement site of Ccet</font></b></marquee>
+    <br>
+    
+    
+     
+      <center><img src = "../Assets/College_Logos/ccet.png" width = "200",height = "200"/></center> 
+   
+      
+    
+    <br>
+    <header><h2><center><i>Placement Stats of 2020</i></center></h2></header>
+    
+    <div class = "div_info"><font size="5">
+      <center>
+      <b>CCET</b> is well known for its huge infrastructure and state of the art facilities.
+      It is also known as Green Campus because it has a unique environment friendly & 
+      energy efficient building with fabulous architecture, lush verdant woods and 
+      landscape gardens that provide an idyllic academic environment to our students.
+      CCET offers B.E. (Bachelor of Engineering) courses in four streams i.e. .
+      Electronics &Communication Engineering, Computer Science & Engineering, Mechanical Engineering and Civil Engineering.
+    </center>
+
+      </font>
+     </div>
+
+      <div class ="div_left">
+      <p><h2><center><i>Highlights of 2020</i></center></h2>
+        <br>
+        <h2>Highest Package:</h2>
+        <pre><h2><i>           Rs.32 LPA</i></h2></pre>
+        <br>
+        <h2>Average Package:</h2>
+        <pre><h2><i>           Rs.5 LPA</i></h2></pre>
+      </p>
+      </div>
+    
+      <div class ="div_right">
+        <p><h2><center><i>Highlights of 2020</i></center></h2>
+        <br>
+        <h2>Median Package:</h2>
+        <pre><h2><i>           Rs.4.65 LPA</i></h2></pre>
+        <br>
+        <h2>No. of students placed:</h2>
+        <pre><h2><i>           123 Students</i></h2></pre>
+      </p>
+      </div>
+      <br>
+      <br>
+      
+
+
+      <!--code of table here-->
+      <div class="container">
+ 
+ <table>
+  <thead>
+    <tr>
+      <th>2020</th>
+      <th>CSE</th>
+      <th>ECE</th>
+      <th>Mechanical</th>
+      <th>Civil</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Interested Students</td>
+      <td>54</td>
+      <td>41</td>
+      <td>47</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>Placed(%)</td>
+      <td>79.63</td>
+      <td>56.1</td>
+      <td>31.91</td>
+      <td>17.78</td>
+    </tr>
+    <tr>
+      <td>Total Offers</td>
+      <td>49</td>
+      <td>33</td>
+      <td>17</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Students with 2 offers</td>
+      <td>6</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Student with 3 offers</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <br>
+    <br>
     <footer>
       <div class="footer">
         <hr class="footer_rule" />
         <p class="footer_content">
-          Made by - &nbsp; &#8226; Shivanshu Dobhal &nbsp; &#8226; Shivam
-          Mahajan&nbsp; &#8226; Shreyash Negi&nbsp; &#8226; Shreya Mittal&nbsp;
-          &#8226; Shivansh Juneja&nbsp; &#8226; Shivansh Garg&nbsp; &#8226;
-          Shivansh Singla&nbsp; &#8226; Shivam Sharma&nbsp; &#8226; Siddharth
-          Vardhan Singh&nbsp; &#8226; Shobhit Gulati
+          Made by -  Shivansh Singla &nbsp;Shivansh Garg&nbsp;
         </p>
         <hr class="footer_links" />
         <p class="footer_content2">
