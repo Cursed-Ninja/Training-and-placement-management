@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+
 }
 
 
@@ -97,10 +98,11 @@ tbody{
     
 }
 .panel-heading,.heading2{
-    
+    font-size: x-large;
    background-color: rgba(0, 0, 0, 0.726);
    color: white;
-   padding: 5px 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
    padding-left: 15px;
   border-radius: 10px;
    margin-top: 10px;
@@ -110,31 +112,59 @@ tbody{
 .table2{
   margin-left: auto;
   margin-right: auto;
+  background-color: beige;
 
 }
 .table3{
    margin-left: auto;
-   margin-right: auto;ntasy;
-   background-color: rgba(10, 214, 37, 0.61);
+   margin-right: auto;
+   background-color: beige;
 }
 
-}
+
 .past{padding-top: 10px;
-   
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(117, 23, 7);
-    font-size: x-large;
+    
 }
 .table1{
+    
+    font-weight: 700;
    text-align: center;
-background-color: rgba(10, 214, 37, 0.61);
+background-color: beige;
   margin-left: auto;
   margin-right: auto;
 }
 pre{
    color: rgb(12, 102, 93);
    line-height: 1.5em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .section1{
+    background-image: url(pic1);
    font-family:cursive ;
    font-size: 120%;
+}
+
+tr{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(7, 44, 65);
+}
+.ftable1{
+    background-color: lightskyblue;
+    
+}
+.ftable2{
+    background-color:rgba(0, 0, 255, 0.315);
+}
+.ftable3{
+    background-color:grey;
+    ;
+}
+h2{
+    color: crimson;
+
+}
+a{
+    color: brown;
 }
