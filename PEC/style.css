@@ -90,3 +90,51 @@ h4{
 .contact:hover{
     color: rgba(255, 255, 255, 0.438);
 }
+tbody{
+    border-color: rgb(228, 28, 28);
+   border-style: none;
+    margin: 4px 4px 4px 8px;
+    
+}
+.panel-heading,.heading2{
+    
+   background-color: rgba(0, 0, 0, 0.726);
+   color: white;
+   padding: 5px 5px;
+   padding-left: 15px;
+  border-radius: 10px;
+   margin-top: 10px;
+   margin-bottom: 2px;
+   text-align: center;
+}
+.table2{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.table3{
+   margin-left: auto;
+   margin-right: auto;ntasy;
+   background-color: rgba(10, 214, 37, 0.61);
+}
+
+}
+.past{padding-top: 10px;
+   
+    color: rgb(117, 23, 7);
+    font-size: x-large;
+}
+.table1{
+   text-align: center;
+background-color: rgba(10, 214, 37, 0.61);
+  margin-left: auto;
+  margin-right: auto;
+}
+pre{
+   color: rgb(12, 102, 93);
+   line-height: 1.5em;
+}
+.section1{
+   font-family:cursive ;
+   font-size: 120%;
+}
