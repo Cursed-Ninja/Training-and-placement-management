@@ -72,7 +72,6 @@ td:hover {
   }
 table {
 	width: 800px;
-	border-collapse: collapse;
 	overflow: hidden;
 	background-color: #FFDAB9;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
@@ -90,7 +89,7 @@ td {
    
 }
 /*footer*/
-.footer{padding-top: 40%;}
+.footer{padding-top: 0%;}
 .footer_rule, .footer_links{
     margin: 15px;
     width: 95%;
