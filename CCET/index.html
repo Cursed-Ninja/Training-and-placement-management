@@ -15,7 +15,7 @@
       @keyframes text_slide{
         from {
        margin-left: 100%;
-       width: 100%;
+       width: 300%;
        }
        to {
          margin-left: 0%;
@@ -30,6 +30,14 @@
         from{background-color:rgb(0, 195, 255);}
         to{background-color:rgb(253, 255, 220);}
       }
+      @keyframes change_color_first{
+        from{background-color: rgb(230, 253, 231);}
+        to{background-color: aqua;}
+      }
+      @keyframes change_color_second{
+        from{background-color: rgb(223, 255, 196);}
+        to{background-color: rgb(135, 222, 174);}
+      }
       
       .div_info{
         
@@ -37,7 +45,7 @@
         text-align: left;
         border-radius: 30px;
         height:220px;
-        width:52%;
+        width:130vh;
         background: cornsilk;
         border: 5px outset greenyellow;
         animation-name: change_color;
@@ -51,8 +59,8 @@
         background: yellow;
         border-radius: 20px;
         border: 5px outset red;
-        height: 200px;
-        width: 15.24%;
+        height: 220px;
+        width: 32.2vh;
         animation-name: change_color_left;
         animation-duration: 6s;
         animation-direction: alternate;
@@ -69,12 +77,45 @@
         background: yellow;
         border-radius: 20px;
         border: 5px outset rgb(255, 187, 0);
-        height: 200px;
-        width: 17.8%; 
+        height: 220px;
+        width: 35.36vh; 
         animation-name: change_color_right; 
         animation-direction: alternate;
         animation-duration: 6s; 
-        animation-iteration-count: infinite; 
+        animation-iteration-count: infinite;
+      }
+
+      .div_facility{
+
+        float: left;
+        border: 5 px outset red;
+      }
+      .recruiters{
+                  padding-top: 43%;
+                  resize: 30%;
+                  }
+      .div_first{
+        float:left;
+        border:5px outset red;
+        height:400px;
+        width:350px;
+        background-color: aliceblue;
+        animation-name: change_color_first; 
+        animation-direction: alternate;
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;
+      }
+      .div_second{
+        float:left;
+        border:5px outset rgb(251, 255, 0);
+        height:400px;
+        width:389px;
+        background-color: rgb(240, 253, 255);
+        animation-name: change_color_second; 
+        animation-direction: alternate;
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;
+      }
     </style>
   </head>
   <body>
@@ -105,7 +146,7 @@
     
     <!-- Footer -->
     
-    <marquee><b><font size ="5">Welcome to the training and placement site of Ccet</font></b></marquee>
+    <marquee><b><font size ="5">Welcome to the training and placement site of CCET</font></b></marquee>
     <br>
     
     
@@ -148,19 +189,14 @@
         <pre><h2><i>           Rs.4.65 LPA</i></h2></pre>
         <br>
         <h2>No. of students placed:</h2>
-        <pre><h2><i>           123 Students</i></h2></pre>
-      </p>
+        <pre><h2><i>           89 Students</i></h2></pre>
+       </p>
       </div>
-      <br>
-      <br>
       
-
-
-      <!--code of table here-->
-      <div class="container">
- 
- <table>
-  <thead>
+  <div class="container">
+   <table>
+    <caption><h2>Branchwise placement records of year 2020 </h2></caption>
+   <thead>
     <tr>
       <th>2020</th>
       <th>CSE</th>
@@ -208,13 +244,62 @@
   </tbody>
 </table>
 </div>
-   <br>
-    <br>
-    <footer>
+<br>
+ <div class="recruiters"> 
+ <center><img src="recruiters image.png" width = "1500"></center>  
+</div>  
+<br>
+
+<h1><center><font color = "blue">Why us?</font></center></h1><br> 
+<div class = "div_first">
+<h2><center>The Finest Minds</center></h2><br>
+<p><font size="4.5">The students at CCET Degree Wing are handpicked from among the brightest minds in the country
+   through Joint Entrance Examination (Main) conducted by CBSE. The strict selection criteria 
+   facilitate that only the best enter the hallowed portal. These students are the pearls which 
+   are found alter scaling the ocean of over many applicants. They are then trained and groomed
+    to meet the challenges of the profession.</font></p>
+</div>
+
+<div class = "div_second">
+<h2><center>Experienced Faculty</center></h2><br>
+<p><font size="4.5">All the departments have experienced faculty member for each subject to cater to 
+  the needs of the students for both theoretical inputs and practical applications. The faculty members,
+   with years of experience in grooming future engineers, always encourage students to raise their doubts
+    so that students can have a complete understanding of the subject. The students are encouraged to look
+     for avenues to learn from every opportunity and enhance their competencies.</font></p>
+</div>
+<div class = "div_first">
+  <h2><center>Panjab University, Chandigarh</center></h2><br>
+  <p><font size="4.5">The institution is affiliated to Panjab University, Chandigarh. Panjab University
+     and its affiliated colleges are presently ranked FIRST in India and in top 250 around the world according 
+     to the UK based Times Higher Education’s(THE) and Thomas Reuter’s World University Rankings Survey 2013-14.
+      The curriculum of BE has been designed (Panjab University) with such exhaustive deliberations and discussions
+       with the engineering experts and professionals so as to make the curriculum most closely aligned with the needs
+        and demands of the industry.</font></p>
+  </div>
+  <div class = "div_second">
+    <h2><center>Facilities for Recruiters</center></h2><br>
+    <p><font size="4.5"><pre>
+1. Well-Equipped GD rooms.
+2. Auditorium with capacity of 300 for
+   presentation.
+3. Facilities available for online test
+   (upto 100 students).
+4. Student volunteers for every possible
+   arrangements.
+5. Spacious Lecture Halls that can be used
+   all kind of purposes like waiting rooms,
+   etc.
+6. Well-Equipped Labs for all written as well
+   as online tests.
+    </pre></font></p>
+    </div>
+
+ <footer>
       <div class="footer">
         <hr class="footer_rule" />
         <p class="footer_content">
-          Made by -  Shivansh Singla &nbsp;Shivansh Garg&nbsp;
+          Made by -  Shivansh Singla &nbsp (UE203109) , Shivansh Garg (UE203107)&nbsp;
         </p>
         <hr class="footer_links" />
         <p class="footer_content2">
@@ -222,5 +307,6 @@
         </p>
       </div>
     </footer>
+  
   </body>
 </html>
