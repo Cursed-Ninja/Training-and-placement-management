@@ -132,15 +132,40 @@ tr{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(7, 44, 65);
 }
+@keyframes change_color1{
+from{background-color: aqua;}
+to{background-color: yellowgreen;}
+}
+@keyframes change_color2{
+from{background-color:rgba(0, 0, 255, 0.315);}
+to{background-color: rgb(182, 212, 212);}
+}
+@keyframes change_color3{
+from{background-color:rgb(131, 252, 61);}
+to{background-color: rgb(223, 88, 88);}
+}
+
 .ftable1{
     background-color: lightskyblue;
+    animation-name: change_color1; 
+        animation-direction: alternate;
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;
     
 }
 .ftable2{
     background-color:rgba(0, 0, 255, 0.315);
+    animation-name: change_color2; 
+        animation-direction: alternate;
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;
 }
 .ftable3{
     background-color:grey;
+    animation-name: change_color3; 
+        animation-direction: alternate;
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;
     ;
 }
 h2{
