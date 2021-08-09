@@ -8,17 +8,17 @@
 /* header */
 .header{
     font-family: Cambria, Cochin, Georgia, 'Times New Roman', serif;
-    background-color: #FFDAB9;
+    background-color: #FFE6E6;
     padding: 15px;
     overflow: hidden;
 }
 
 h1{
-    color: rgb(61, 42, 165);
+    color: rgb(56, 165, 42);
 }
 
 h4{
-    color: #334756;
+    color: #335640;
 }
 
 .logo{
@@ -30,7 +30,7 @@ h4{
 
 /* navbar */
 .navbar{
-    background-color: #333;
+    background-color: rgb(14, 2, 2);
     overflow: hidden;
     
 }
